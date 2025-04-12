@@ -1,0 +1,12 @@
+//vamos a crear nuestra base de datos 
+use ("sales_clothes")
+//na colecion prenda y su respentivo documento 
+/* db.Prenda.insertOne({
+    nombre: "camiseta",
+    marca:"van husen",
+    precio: 200,
+    color:["rojo", "azul", "verde"],
+    Stock: 50
+}) */
+//lista de documentos
+db.Prenda.find()
